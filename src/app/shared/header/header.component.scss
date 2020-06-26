@@ -1,0 +1,40 @@
+ul {
+  list-style-type: none;
+  margin: 1px;
+  padding: 1px;
+  overflow: hidden;
+  background-color: #8842d5;
+     position: fixed;
+     top: 0;
+     width: 100%;
+ }
+ 
+ li {
+  float: left;
+  position: relative;
+  left: 85%;
+ }
+ 
+ 
+
+ li a {
+  display: block;
+  color: white;
+  text-align: left;
+  padding: 15px 17px;
+  text-decoration: none;
+ }
+ 
+
+ li a:hover {
+  background-color: #7300ff;
+ }
+ 
+ 
+ .logo{
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+}
+
